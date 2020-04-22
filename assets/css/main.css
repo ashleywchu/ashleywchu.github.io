@@ -66,11 +66,13 @@ table {
 .initial-slide {
   -webkit-animation: 5s initial-slide linear 1;
   animation: 5s initial-slide linear 1;
+  will-change: transform;
 }
 
 .full-slide {
   -webkit-animation: marquee 10s linear infinite;
   animation: marquee 10s linear infinite;
+  will-change: transform;
 }
 
 @keyframes initial-slide {
